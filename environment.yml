@@ -1,0 +1,13 @@
+name: bremen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip=24.0
+  - opencv=4.9.0
+  - pip:
+      - coloredlogs==15.0.1
+      - openpyxl==3.1.2
+      - pandas==2.2.1
+      - python-dotenv==1.0.1
